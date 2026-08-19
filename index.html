@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhinav Mehra | Python Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div id="scroll-progress"></div>
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">AM</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark mode">🌙</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content" data-aos="fade-down" data-aos-duration="900">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1>ABHINAV MEHRA</h1>
+      <p class="hero-tagline"><span id="typed-text"></span><span class="cursor">|</span><br>
+        <span class="accent-green">Django · Flask · FastAPI · REST APIs · SQL</span>
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">Explore My Work</a>
+        <a href="resume.pdf" download class="btn btn-outline">Download Resume</a>
+      </div>
+      <div class="social-icons">
+        <a href="mailto:abhinavmehra@email.com" aria-label="Email" title="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+        </a>
+        <a href="tel:+917807758664" aria-label="Phone" title="Call +91 78077 58664">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.08 6.08l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+        <a href="https://github.com/abhinavmehra031-source" target="_blank" aria-label="GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/abhinav-mehra-203046362/" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-blob"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container" data-aos="fade-right" data-aos-duration="800">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a <span class="accent-blue">B.Tech Computer Science Engineering</span> student (2022–2026) specializing in backend systems and APIs.</p>
+          <p>Skilled in designing and shipping <span class="accent-green">production-style applications</span> with Python — from REST APIs to ML pipelines. Fast learner with a track record of independent problem-solving and hackathon wins.</p>
+          <p>I enjoy turning complex problems into clean, efficient backend solutions.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card"><span class="stat-num accent-blue">3+</span><span>Years Coding</span></div>
+          <div class="stat-card"><span class="stat-num accent-green">5+</span><span>Projects Built</span></div>
+          <div class="stat-card"><span class="stat-num accent-green">1</span><span>Internship</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-left">Experience</h2>
+      <div class="timeline" data-aos="fade-left" data-aos-delay="100">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>AI/ML Intern</h3>
+              <span class="timeline-company">CS Infotech, Chandigarh</span>
+              <span class="timeline-date">Jan 2025 – Jun 2026</span>
+            </div>
+            <ul>
+              <li>Developed and trained machine learning models in Python using <span class="accent-blue">Pandas, NumPy, and Scikit-learn</span>.</li>
+              <li>Built end-to-end data preprocessing and prediction pipelines.</li>
+              <li>Performed data analysis, feature engineering, and model evaluation.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="project-top">
+            <h3>Assessment Task</h3>
+            <p>A full-stack assessment project built and deployed on Vercel showcasing backend and frontend integration.</p>
+          </div>
+          <div class="project-tags">
+            <span>Python</span><span>FastAPI</span><span>JavaScript</span><span>Vercel</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/abhinavmehra031-source/assignment" target="_blank" class="btn btn-sm btn-outline">View Repo</a>
+            <a href="https://assignment-delta-rust-39.vercel.app/" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-top">
+            <h3>Object Detection using YOLO</h3>
+            <p>Full-stack web app with live MJPEG webcam streaming and real-time object detection powered by YOLOv8.</p>
+          </div>
+          <div class="project-tags">
+            <span>Django</span><span>Python</span><span>OpenCV</span><span>YOLOv8</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/abhinavmehra031-source/Object-Detection-" target="_blank" class="btn btn-sm btn-outline">View Repo</a>
+            <a href="https://object-detection-using-yolo-9xhw.onrender.com" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-top">
+            <h3>Daylight — Productivity Assistant</h3>
+            <p>Client-side productivity tool for task planning, schedule importing, and daily workflow management. Zero dependencies.</p>
+          </div>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://tourmaline-malabi-a79c11.netlify.app/" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-top">
+            <h3>AI Resume Analyzer</h3>
+            <p>AI-powered resume analysis tool that parses resumes and provides structured feedback and insights using LLM integration.</p>
+          </div>
+          <div class="project-tags">
+            <span>Python</span><span>FastAPI</span><span>AI</span><span>REST API</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/abhinavmehra031-source/Ai-Resume-Analyzer" target="_blank" class="btn btn-sm btn-outline">View Repo</a>
+            <a href="https://ai-resume-1-lb0y.onrender.com" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-top">
+            <h3>Eye Disease Detection</h3>
+            <p>ML pipeline for automated detection of eye diseases from retinal images using classification models and data augmentation.</p>
+          </div>
+          <div class="project-tags">
+            <span>ML</span><span>Python</span><span>Scikit-learn</span><span>Data Pipelines</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/abhinavmehra031-source/Eye-disease-detection" target="_blank" class="btn btn-sm btn-outline">View Repo</a>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title" data-aos="zoom-in">Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category" data-aos="zoom-in" data-aos-delay="0">
+          <h4><span class="cat-icon">⚙️</span> Backend Development</h4>
+          <div class="skill-tags">
+            <span>Python</span><span>Django</span><span>Flask</span><span>FastAPI</span><span>REST API Design</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="zoom-in" data-aos-delay="100">
+          <h4><span class="cat-icon">🗄️</span> Databases</h4>
+          <div class="skill-tags">
+            <span>MySQL</span><span>MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="zoom-in" data-aos-delay="200">
+          <h4><span class="cat-icon">🤖</span> ML / Data Analysis</h4>
+          <div class="skill-tags">
+            <span>Scikit-learn</span><span>Pandas</span><span>NumPy</span><span>EDA</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="zoom-in" data-aos-delay="300">
+          <h4><span class="cat-icon">🌐</span> Web / Testing</h4>
+          <div class="skill-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Postman</span><span>Thunder Client</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="zoom-in" data-aos-delay="400">
+          <h4><span class="cat-icon">🛠️</span> Additional Tools</h4>
+          <div class="skill-tags">
+            <span>Git</span><span>GitHub</span><span>VS Code</span><span>Kali Linux</span><span>Ethical Hacking</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-sub">Have a project in mind or want to collaborate? Drop me a message.</p>
+      <form id="contact-form" class="contact-form">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="form-status" class="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed & Built by <span class="accent-blue">Abhinav Mehra</span> · <span class="accent-green">2025</span></p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
