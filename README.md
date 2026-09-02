@@ -2,6 +2,10 @@
 
 A responsive personal portfolio website showcasing my experience, technical skills, projects, and contact information as a Python/backend and AI/ML developer.
 
+## 🌐 Live Portfolio
+
+**[View Live Portfolio](https://ai-resume-o6n3.vercel.app/)**
+
 ## ✨ Highlights
 
 - Responsive portfolio layout
@@ -14,6 +18,15 @@ A responsive personal portfolio website showcasing my experience, technical skil
 - Project cards with repository and live-demo links
 - Downloadable resume link
 - GitHub and LinkedIn links
+
+## 🚀 Live Projects
+
+| Project | Live Demo |
+|---|---|
+| Accredian Enterprise Landing Page | https://assignment-delta-rust-39.vercel.app/ |
+| Object Detection using YOLO | https://object-detection-using-yolo-9xhw.onrender.com |
+| Daylight Productivity Assistant | https://tourmaline-malabi-a79c11.netlify.app/ |
+| AI Resume Analyzer | https://ai-resume-1-lb0y.onrender.com |
 
 ## 🛠️ Tech Stack
 
