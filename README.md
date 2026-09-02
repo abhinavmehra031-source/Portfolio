@@ -1,43 +1,45 @@
 # Abhinav Mehra — Developer Portfolio
 
-A responsive personal portfolio website showcasing my experience, technical skills, projects, and contact information as a Python/backend and AI/ML developer.
+<div align="center">
 
-## 🌐 Live Portfolio
+**Python Backend • AI/ML • Computer Vision • Full-Stack Development**
 
-**[View Live Portfolio](https://ai-resume-o6n3.vercel.app/)**
+A responsive developer portfolio showcasing projects, technical skills, experience, and live applications.
 
-## ✨ Highlights
+[🌐 Portfolio](https://ai-resume-o6n3.vercel.app/) · [💻 GitHub](https://github.com/abhinavmehra031-source) · [💼 LinkedIn](https://www.linkedin.com/in/abhinav-mehra-203046362/)
 
-- Responsive portfolio layout
-- About, Experience, Projects, Skills and Contact sections
-- Dark/light theme toggle
-- Mobile navigation menu
-- Scroll progress indicator
-- Animated section reveals with AOS
-- Interactive typed hero text
-- Project cards with repository and live-demo links
-- Downloadable resume link
-- GitHub and LinkedIn links
+</div>
 
 ## 🚀 Live Projects
 
-| Project | Live Demo |
+| Project | Demo |
 |---|---|
-| Accredian Enterprise Landing Page | https://assignment-delta-rust-39.vercel.app/ |
-| Object Detection using YOLO | https://object-detection-using-yolo-9xhw.onrender.com |
-| Daylight Productivity Assistant | https://tourmaline-malabi-a79c11.netlify.app/ |
-| AI Resume Analyzer | https://ai-resume-1-lb0y.onrender.com |
+| Accredian Enterprise Landing Page | [Live](https://assignment-delta-rust-39.vercel.app/) |
+| Object Detection using YOLOv8 | [Live](https://object-detection-using-yolo-9xhw.onrender.com) |
+| Daylight Productivity Assistant | [Live](https://tourmaline-malabi-a79c11.netlify.app/) |
+| AI Resume Analyzer | [Live](https://ai-resume-1-lb0y.onrender.com) |
+
+## ✨ Portfolio Features
+
+- 📱 Responsive design
+- 🌙 Dark/light theme toggle
+- 📊 Scroll progress indicator
+- ✨ AOS-powered animations
+- ⌨️ Typed hero section
+- 🧭 Mobile navigation
+- 🚀 Project cards with live demos and repositories
+- 📄 Resume section
+- 🔗 GitHub and LinkedIn integration
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript
-- AOS (Animate On Scroll)
-- Google Fonts — Inter
-- FastAPI/Mangum support for the included API requirements
+**Frontend:** HTML5 · CSS3 · JavaScript  
+**Backend:** Python · FastAPI · Django · Flask · REST APIs  
+**AI/ML:** PyTorch · Scikit-learn · YOLOv8 · OpenCV · MediaPipe  
+**Data:** Pandas · NumPy · MySQL · MongoDB · PostgreSQL  
+**Tools:** Git · GitHub · Docker · Linux · VS Code
 
-## 📂 Project Structure
+## 📂 Structure
 
 ```text
 Portfolio/
@@ -47,41 +49,33 @@ Portfolio/
 ├── style.css
 ├── requirements.txt
 ├── vercel.json
+├── .gitignore
 └── README.md
 ```
 
-## 🚀 Run Locally
-
-Because the main portfolio is a static HTML/CSS/JavaScript site, it can be opened directly in a browser or served with a local HTTP server.
+## 💻 Run Locally
 
 ```bash
 git clone https://github.com/abhinavmehra031-source/Portfolio.git
 cd Portfolio
-
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000`.
+Open `http://localhost:8000` in your browser.
 
-## 🌐 Deployment
+## 🎯 Developer Focus
 
-The repository includes `vercel.json` and can be deployed through Vercel or another static hosting platform.
+- Python backend engineering
+- REST API development
+- AI/ML applications
+- Computer Vision and YOLO
+- Django / FastAPI development
+- Docker and Linux
+- Building production-ready projects
 
-## 🚀 Featured Projects
+## 👨‍💻 About
 
-- **Assessment Task** — Python, FastAPI, JavaScript
-- **Object Detection using YOLO** — Django, Python, OpenCV, YOLOv8
-- **Daylight Productivity Assistant** — HTML, CSS, JavaScript
-- **AI Resume Analyzer** — Python, FastAPI, AI, REST API
-- **Eye Disease Detection** — Python, Machine Learning, Scikit-learn
-
-## 👨‍💻 About the Developer
-
-**Abhinav Mehra** is a Computer Science & Engineering graduate focused on Python backend development, AI/ML, computer vision, REST APIs, and web applications.
-
-### Core Skills
-
-Python · Django · Flask · FastAPI · REST APIs · MySQL · MongoDB · Scikit-learn · Pandas · NumPy · OpenCV · YOLOv8 · JavaScript · Git · Docker · Linux
+I'm a B.Tech Computer Science & Engineering graduate focused on building practical software with Python, AI/ML, Computer Vision, and modern web technologies. I enjoy turning real-world problems into useful applications and continuously improving my engineering skills.
 
 ## 📫 Connect
 
@@ -90,4 +84,4 @@ Python · Django · Flask · FastAPI · REST APIs · MySQL · MongoDB · Scikit-
 
 ---
 
-⭐ Thanks for visiting my portfolio.
+⭐ If you like the portfolio or projects, consider giving the repositories a star.
